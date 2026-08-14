@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Send an enquiry to Sweet Crumbs Bakery about cakes and bakery orders.">
+
+    <title>Sweet Crumbs Bakery | Enquiry</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Sweet Crumbs Bakery</h1>
+        <p>Freshly Baked. Made With Love.</p>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section>
+            <h2>Make an Enquiry</h2>
+
+            <p>
+                Complete the form below if you would like to enquire
+                about our products or request a custom cake.
+            </p>
+
+            <!-- Enquiry Form -->
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Customer Information</legend>
+
+                    <label for="fullName">Full Name:</label>
+                    <br>
+
+                    <input type="text"
+                           id="fullName"
+                           name="fullName"
+                           required>
+
+                    <br><br>
+
+                    <label for="email">Email Address:</label>
+                    <br>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           required>
+
+                    <br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <br>
+
+                    <input type="tel"
+                           id="phone"
+                           name="phone"
+                           required>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+
+                    <legend>Order Information</legend>
+
+                    <label for="product">
+                        Product Type:
+                    </label>
+                    <br>
+
+                    <select id="product" name="product">
+
+                        <option value="">
+                            Select a product
+                        </option>
+
+                        <option value="cake">
+                            Custom Cake
+                        </option>
+
+                        <option value="cupcakes">
+                            Cupcakes
+                        </option>
+
+                        <option value="bread">
+                            Bread
+                        </option>
+
+                        <option value="cookies">
+                            Cookies
+                        </option>
+
+                        <option value="pastries">
+                            Pastries
+                        </option>
+
+                    </select>
+
+                    <br><br>
+
+                    <label for="quantity">
+                        Quantity:
+                    </label>
+                    <br>
+
+                    <input type="number"
+                           id="quantity"
+                           name="quantity"
+                           min="1">
+
+                    <br><br>
+
+                    <label for="date">
+                        Preferred Collection Date:
+                    </label>
+                    <br>
+
+                    <input type="date"
+                           id="date"
+                           name="date">
+
+                    <br><br>
+
+                    <label for="message">
+                        Additional Information:
+                    </label>
+                    <br>
+
+                    <textarea id="message"
+                              name="message"
+                              rows="6"
+                              cols="40"
+                              placeholder="Tell us about your order..."></textarea>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Submit Enquiry
+                </button>
+
+                <button type="reset">
+                    Clear Form
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
