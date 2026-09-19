@@ -49,7 +49,24 @@ The main objectives of the Sweet Crumbs Bakery website are to:
 - Apply appropriate HTML and CSS development practices.
 
 ---
+## Website Pages
 
+The website contains the following pages:
+
+### 1. Home Page
+
+The homepage introduces visitors to Sweet Crumbs Bakery.
+
+It includes:
+
+- Bakery welcome message.
+- Hero section.
+- Introduction to the bakery.
+- Featured products.
+- Call-to-action section.
+- Link to the products page.
+- Link to the enquiry page.
+---
 
 
 
