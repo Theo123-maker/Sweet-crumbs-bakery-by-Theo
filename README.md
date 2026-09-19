@@ -225,3 +225,6 @@ The following changes were made during Part 2 of the project:
 - Added responsive breakpoints for tablets and mobile devices.
 - Used relative units such as `%` and `rem` to improve responsiveness.
 - Added responsive image styling using CSS.
+- Added `srcset` and `sizes` attributes to product images.
+- Created small, medium and large versions of the bakery images.
+- Updated image file names to follow a consistent naming format.
