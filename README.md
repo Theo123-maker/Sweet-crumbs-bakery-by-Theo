@@ -60,7 +60,7 @@ The homepage introduces visitors to Sweet Crumbs Bakery.
 It includes:
 
 - Bakery welcome message.
-- Hero section.
+- Hero Section
 - Introduction to the bakery.
 - Featured products.
 - Call-to-action section.
