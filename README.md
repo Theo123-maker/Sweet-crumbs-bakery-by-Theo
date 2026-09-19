@@ -215,3 +215,6 @@ The following changes were made during Part 2 of the project:
 - Added hover and focus effects to navigation links.
 - Styled the website buttons and added hover effects.
 - Created a responsive hero section for the homepage.
+- Used Flexbox to arrange the header and navigation elements.
+- Used CSS Grid to display the bakery products.
+- Added product cards with consistent spacing and styling.
