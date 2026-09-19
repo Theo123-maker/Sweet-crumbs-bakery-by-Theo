@@ -244,3 +244,24 @@ Three image sizes were created for the main product images:
 - **Small images** – used for smaller mobile screens.
 - **Medium images** – used for tablets and medium-sized screens.
 - **Large images** – used for desktops and larger screens.
+
+The `srcset` attribute was used to provide different image sizes, while the `sizes` attribute helps the browser decide which image is most suitable for the user's screen size.
+
+Example:
+
+```html
+<img
+    src="images/cake-large.jpg"
+    srcset="
+        images/cake-small.jpg 480w,
+        images/cake-medium.jpg 800w,
+        images/cake-large.jpg 1200w
+    "
+    sizes="
+        (max-width: 600px) 100vw,
+        (max-width: 1024px) 50vw,
+        33vw
+    "
+    alt="Decorated celebration cake"
+    class="responsive-image"
+>
