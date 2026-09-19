@@ -209,3 +209,6 @@ The following changes were made during Part 2 of the project:
 - Linked the CSS stylesheet to all five HTML pages.
 - Added a CSS reset to make the website styling more consistent.
 - Added a consistent font family throughout the website.
+- Added suitable heading sizes and paragraph spacing.
+- Created a consistent colour scheme for Sweet Crumbs Bakery.
+- Added styling to the website header and navigation bar.
