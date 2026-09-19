@@ -228,3 +228,6 @@ The following changes were made during Part 2 of the project:
 - Added `srcset` and `sizes` attributes to product images.
 - Created small, medium and large versions of the bakery images.
 - Updated image file names to follow a consistent naming format.
+- Corrected image file paths in the HTML code.
+- Added suitable `alt` text to images for accessibility.
+- Tested the images to make sure they display correctly on the website.
