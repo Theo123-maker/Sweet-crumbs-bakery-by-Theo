@@ -148,7 +148,46 @@ CSS was used for:
 # Project Folder Structure
 
 The project is organised using the following folder structure:
-
+```text
+Sweet-crumbs-bakery-by-Theo/
+│
+├── index.html
+├── about.html
+├── products.html
+├── enquiry.html
+├── contact.html
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+    ├── bakery-small.png
+    ├── bakery-medium.png
+    ├── bakery-large.png
+    │
+    ├── birthdaycake-small.jpg
+    ├── birthdaycake-medium.jpg
+    ├── birthdaycake-large.jpg
+    │
+    ├── cake-small.jpg
+    ├── cake-medium.jpg
+    ├── cake-large.jpg
+    │
+    ├── bread-small.jpg
+    ├── bread-medium.jpg
+    ├── bread-large.jpg
+    │
+    ├── cupcake-small.jpg
+    ├── cupcake-medium.jpg
+    ├── cupcake-large.jpg
+    │
+    ├── pastries-small.jpg
+    ├── pastries-medium.jpg
+    └── pastries-large.jpg
 ---
 
 ## Project Structure
