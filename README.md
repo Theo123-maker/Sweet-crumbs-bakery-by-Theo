@@ -144,6 +144,13 @@ CSS was used for:
 - Hover effects
 - Mobile layouts
 - Tablet layouts
+
+### Git and GitHub
+
+Git was used to keep track of changes made during the development of the website.
+
+GitHub was used to store and manage the project online.
+
 ---
 # Project Folder Structure
 
