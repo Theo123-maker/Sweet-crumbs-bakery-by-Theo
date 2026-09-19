@@ -1,0 +1,267 @@
+# Sweet-crumbs-bakery-by-Theo
+
+# Sweet Crumbs Bakery Website
+
+## Student Information
+
+**Student Name:** Theofat Ramabulana
+
+**Student Number:** st10489227
+
+**Course:** Diploma in Information Technology Management
+
+**Module:** WEDE5020
+
+**Institution:** Rosebank College
+
+**Year:** 2026
+
+---
+
+## Project Overview
+
+Sweet Crumbs Bakery is a fictional local bakery created for this
+web development project.
+
+The purpose of the project is to design and develop a professional
+website for a small bakery. The website provides information about
+the bakery, its products, contact details and enquiry options.
+
+The website will allow customers to learn more about Sweet Crumbs
+Bakery and make enquiries about products and custom cake orders.
+
+The project will be developed using HTML, CSS and JavaScript.
+
+---
+## Project Objectives
+
+The main objectives of the Sweet Crumbs Bakery website are to:
+
+- Provide information about Sweet Crumbs Bakery.
+- Display the bakery's products in an organised way.
+- Allow customers to make enquiries.
+- Provide the bakery's contact information.
+- Display the bakery's location using Google Maps.
+- Create a website that is easy to navigate.
+- Make the website responsive on desktop, tablet and mobile devices.
+- Use responsive images to improve the website's performance.
+- Create a consistent design across all website pages.
+- Apply appropriate HTML and CSS development practices.
+
+---
+## Website Pages
+
+The website contains the following pages:
+
+### 1. Home Page
+
+The homepage introduces visitors to Sweet Crumbs Bakery.
+
+It includes:
+
+- Bakery welcome message.
+- Hero Section
+- Introduction to the bakery.
+- Featured products.
+- Call-to-action section.
+- Link to the products page.
+- Link to the enquiry page.
+---
+### 2. About Us
+
+The About Us page provides information about Sweet Crumbs Bakery, its purpose and its approach to providing quality baked products and customer service.
+
+### 3. Products
+
+The Products page displays the bakery's products.
+
+Products include:
+
+- Celebration Cakes
+- Cupcakes
+- Fresh Bread
+- Pastries
+
+Each product contains an image, heading, description and an option to make an enquiry.
+
+### 4. Enquiry
+
+The Enquiry page allows customers to provide their details and submit an enquiry about bakery products and services.
+
+The form includes fields such as:
+
+- Customer name
+- Email address
+- Contact number
+- Product of interest
+- Enquiry/message
+
+### 5. Contact
+
+The Contact page provides customers with ways to contact Sweet Crumbs Bakery.
+
+It includes:
+
+- Contact information.
+- Bakery location.
+- Google Maps.
+- Additional contact information.
+
+---
+# Technologies Used
+
+The following technologies were used to develop the website:
+
+### HTML5
+
+HTML was used to create the structure and content of the website.
+
+Examples include:
+
+- Headings
+- Paragraphs
+- Images
+- Navigation links
+- Forms
+- Sections
+- Articles
+- Footer
+---
+### CSS3
+
+CSS was used to style and improve the appearance of the website.
+
+CSS was used for:
+
+- Colours
+- Fonts
+- Spacing
+- Layouts
+- Buttons
+- Product cards
+- Navigation
+- Responsive design
+- Hover effects
+- Mobile layouts
+- Tablet layouts
+
+### Git and GitHub
+
+Git was used to keep track of changes made during the development of the website.
+
+GitHub was used to store and manage the project online.
+
+---
+# Project Folder Structure
+
+The project is organised using the following folder structure:
+```text
+Sweet-crumbs-bakery-by-Theo/
+│
+├── index.html
+├── about.html
+├── products.html
+├── enquiry.html
+├── contact.html
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+    ├── bakery-small.png
+    ├── bakery-medium.png
+    ├── bakery-large.png
+    │
+    ├── birthdaycake-small.jpg
+    ├── birthdaycake-medium.jpg
+    ├── birthdaycake-large.jpg
+    │
+    ├── cake-small.jpg
+    ├── cake-medium.jpg
+    ├── cake-large.jpg
+    │
+    ├── bread-small.jpg
+    ├── bread-medium.jpg
+    ├── bread-large.jpg
+    │
+    ├── cupcake-small.jpg
+    ├── cupcake-medium.jpg
+    ├── cupcake-large.jpg
+    │
+    ├── pastries-small.jpg
+    ├── pastries-medium.jpg
+    └── pastries-large.jpg
+---
+
+# Changelog
+
+## Part 2 – CSS Styling and Responsive Design
+
+### Version 2.0 – CSS Development
+
+The following changes were made during Part 2 of the project:
+
+- Created an external `style.css` file for the website.
+- Linked the CSS stylesheet to all five HTML pages.
+- Added a CSS reset to make the website styling more consistent.
+- Added a consistent font family throughout the website.
+- Added suitable heading sizes and paragraph spacing.
+- Created a consistent colour scheme for Sweet Crumbs Bakery.
+- Added styling to the website header and navigation bar.
+- Added hover and focus effects to navigation links.
+- Styled the website buttons and added hover effects.
+- Created a responsive hero section for the homepage.
+- Used Flexbox to arrange the header and navigation elements.
+- Used CSS Grid to display the bakery products.
+- Added product cards with consistent spacing and styling.
+- Added styling for the enquiry form.
+- Added styling for the contact section.
+- Added styling for the Google Maps section.
+- Added footer styling.
+- Added responsive breakpoints for tablets and mobile devices.
+- Used relative units such as `%` and `rem` to improve responsiveness.
+- Added responsive image styling using CSS.
+- Added `srcset` and `sizes` attributes to product images.
+- Created small, medium and large versions of the bakery images.
+- Updated image file names to follow a consistent naming format.
+- Corrected image file paths in the HTML code.
+- Added suitable `alt` text to images for accessibility.
+- Tested the images to make sure they display correctly on the website.
+- Checked that the correct image size can be selected depending on the screen size.
+- Tested the website at desktop, tablet and mobile screen sizes.
+- Corrected spacing, image and layout issues found during testing.
+
+## Responsive Images
+
+Responsive images were added to improve website performance and user experience.
+
+Three image sizes were created for the main product images:
+
+- **Small images** – used for smaller mobile screens.
+- **Medium images** – used for tablets and medium-sized screens.
+- **Large images** – used for desktops and larger screens.
+
+The `srcset` attribute was used to provide different image sizes, while the `sizes` attribute helps the browser decide which image is most suitable for the user's screen size.
+
+Example:
+
+```html
+<img
+    src="images/cake-large.jpg"
+    srcset="
+        images/cake-small.jpg 480w,
+        images/cake-medium.jpg 800w,
+        images/cake-large.jpg 1200w
+    "
+    sizes="
+        (max-width: 600px) 100vw,
+        (max-width: 1024px) 50vw,
+        33vw
+    "
+    alt="Decorated celebration cake"
+    class="responsive-image"
+>
