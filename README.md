@@ -212,3 +212,6 @@ The following changes were made during Part 2 of the project:
 - Added suitable heading sizes and paragraph spacing.
 - Created a consistent colour scheme for Sweet Crumbs Bakery.
 - Added styling to the website header and navigation bar.
+- Added hover and focus effects to navigation links.
+- Styled the website buttons and added hover effects.
+- Created a responsive hero section for the homepage.
