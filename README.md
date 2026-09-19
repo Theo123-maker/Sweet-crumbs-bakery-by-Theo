@@ -207,3 +207,5 @@ The following changes were made during Part 2 of the project:
 
 - Created an external `style.css` file for the website.
 - Linked the CSS stylesheet to all five HTML pages.
+- Added a CSS reset to make the website styling more consistent.
+- Added a consistent font family throughout the website.
