@@ -126,6 +126,10 @@ Examples include:
 - Sections
 - Articles
 - Footer
+---
+### CSS3
+
+CSS was used to style and improve the appearance of the website.
 
 
 ---
