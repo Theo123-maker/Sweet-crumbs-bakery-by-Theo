@@ -234,3 +234,13 @@ The following changes were made during Part 2 of the project:
 - Checked that the correct image size can be selected depending on the screen size.
 - Tested the website at desktop, tablet and mobile screen sizes.
 - Corrected spacing, image and layout issues found during testing.
+
+## Responsive Images
+
+Responsive images were added to improve website performance and user experience.
+
+Three image sizes were created for the main product images:
+
+- **Small images** – used for smaller mobile screens.
+- **Medium images** – used for tablets and medium-sized screens.
+- **Large images** – used for desktops and larger screens.
