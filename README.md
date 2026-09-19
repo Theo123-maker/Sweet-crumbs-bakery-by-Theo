@@ -218,3 +218,6 @@ The following changes were made during Part 2 of the project:
 - Used Flexbox to arrange the header and navigation elements.
 - Used CSS Grid to display the bakery products.
 - Added product cards with consistent spacing and styling.
+- Added styling for the enquiry form.
+- Added styling for the contact section.
+- Added styling for the Google Maps section.
