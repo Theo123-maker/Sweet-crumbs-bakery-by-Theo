@@ -110,15 +110,6 @@ It includes:
 ---
 
 
-## Technologies Used
-
-The following technologies will be used:
-
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
 
 ---
 
