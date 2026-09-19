@@ -67,7 +67,47 @@ It includes:
 - Link to the products page.
 - Link to the enquiry page.
 ---
+### 2. About Us
 
+The About Us page provides information about Sweet Crumbs Bakery, its purpose and its approach to providing quality baked products and customer service.
+
+### 3. Products
+
+The Products page displays the bakery's products.
+
+Products include:
+
+- Celebration Cakes
+- Cupcakes
+- Fresh Bread
+- Pastries
+
+Each product contains an image, heading, description and an option to make an enquiry.
+
+### 4. Enquiry
+
+The Enquiry page allows customers to provide their details and submit an enquiry about bakery products and services.
+
+The form includes fields such as:
+
+- Customer name
+- Email address
+- Contact number
+- Product of interest
+- Enquiry/message
+
+### 5. Contact
+
+The Contact page provides customers with ways to contact Sweet Crumbs Bakery.
+
+It includes:
+
+- Contact information.
+- Bakery location.
+- Google Maps.
+- Additional contact information.
+
+---
 
 
 ## Technologies Used
