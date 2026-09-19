@@ -202,3 +202,8 @@ Sweet-crumbs-bakery-by-Theo/
 ## Part 2 – CSS Styling and Responsive Design
 
 ### Version 2.0 – CSS Development
+
+The following changes were made during Part 2 of the project:
+
+- Created an external `style.css` file for the website.
+- Linked the CSS stylesheet to all five HTML pages.
