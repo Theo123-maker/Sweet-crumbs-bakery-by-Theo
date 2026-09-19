@@ -51,47 +51,7 @@ The main objectives of the Sweet Crumbs Bakery website are to:
 ---
 
 
-## Key Features and Functionality
 
-The website will contain five main pages:
-
-### Home Page
-
-The home page introduces Sweet Crumbs Bakery and displays
-featured products.
-
-### About Us Page
-
-The About Us page provides information about the history,
-mission, vision and values of the bakery.
-
-### Products Page
-
-The Products page displays the different products sold by the
-bakery, including:
-
-- Cakes
-- Cupcakes
-- Bread
-- Cookies
-- Pastries
-
-### Enquiry Page
-
-The Enquiry page provides a form that customers can use to
-request information about products and custom cake orders.
-
-### Contact Page
-
-The Contact page provides:
-
-- Bakery locations
-- Telephone numbers
-- Email addresses
-- Opening hours
-- Contact form
-
----
 
 ## Technologies Used
 
