@@ -144,6 +144,10 @@ CSS was used for:
 - Hover effects
 - Mobile layouts
 - Tablet layouts
+---
+# Project Folder Structure
+
+The project is organised using the following folder structure:
 
 ---
 
