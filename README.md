@@ -197,3 +197,8 @@ Sweet-crumbs-bakery-by-Theo/
     └── pastries-large.jpg
 ---
 
+# Changelog
+
+## Part 2 – CSS Styling and Responsive Design
+
+### Version 2.0 – CSS Development
