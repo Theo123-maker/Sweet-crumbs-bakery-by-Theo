@@ -34,20 +34,7 @@ The project will be developed using HTML, CSS and JavaScript.
 
 ---
 
-## Website Goals and Objectives
 
-The main goals of the website are:
-
-- Create a professional online presence for Sweet Crumbs Bakery.
-- Provide customers with information about the bakery.
-- Display the bakery's products and services.
-- Allow customers to make product enquiries.
-- Provide clear contact information.
-- Make the website easy to navigate.
-- Ensure that the website works on different screen sizes.
-- Create an attractive and user-friendly design.
-
----
 
 ## Key Features and Functionality
 
