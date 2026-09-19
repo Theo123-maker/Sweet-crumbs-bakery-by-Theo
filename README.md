@@ -108,7 +108,24 @@ It includes:
 - Additional contact information.
 
 ---
+# Technologies Used
 
+The following technologies were used to develop the website:
+
+### HTML5
+
+HTML was used to create the structure and content of the website.
+
+Examples include:
+
+- Headings
+- Paragraphs
+- Images
+- Navigation links
+- Forms
+- Sections
+- Articles
+- Footer
 
 
 ---
