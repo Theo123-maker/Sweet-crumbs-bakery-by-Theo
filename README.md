@@ -33,7 +33,7 @@ Bakery and make enquiries about products and custom cake orders.
 The project will be developed using HTML, CSS and JavaScript.
 
 ---
-## 🎯 Project Objectives
+## Project Objectives
 
 The main objectives of the Sweet Crumbs Bakery website are to:
 
