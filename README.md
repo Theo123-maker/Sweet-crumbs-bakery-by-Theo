@@ -190,24 +190,3 @@ Sweet-crumbs-bakery-by-Theo/
     └── pastries-large.jpg
 ---
 
-## Project Structure
-
-```text
-sweet-crumbs-bakery/
-
-├── index.html
-├── about.html
-├── products.html
-├── enquiry.html
-├── contact.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   └── website images
-│
-└── README.md
