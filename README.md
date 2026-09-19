@@ -131,6 +131,19 @@ Examples include:
 
 CSS was used to style and improve the appearance of the website.
 
+CSS was used for:
+
+- Colours
+- Fonts
+- Spacing
+- Layouts
+- Buttons
+- Product cards
+- Navigation
+- Responsive design
+- Hover effects
+- Mobile layouts
+- Tablet layouts
 
 ---
 
