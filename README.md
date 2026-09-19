@@ -221,3 +221,7 @@ The following changes were made during Part 2 of the project:
 - Added styling for the enquiry form.
 - Added styling for the contact section.
 - Added styling for the Google Maps section.
+- Added footer styling.
+- Added responsive breakpoints for tablets and mobile devices.
+- Used relative units such as `%` and `rem` to improve responsiveness.
+- Added responsive image styling using CSS.
