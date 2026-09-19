@@ -231,3 +231,6 @@ The following changes were made during Part 2 of the project:
 - Corrected image file paths in the HTML code.
 - Added suitable `alt` text to images for accessibility.
 - Tested the images to make sure they display correctly on the website.
+- Checked that the correct image size can be selected depending on the screen size.
+- Tested the website at desktop, tablet and mobile screen sizes.
+- Corrected spacing, image and layout issues found during testing.
