@@ -4,7 +4,7 @@
 
 ## Student Information
 
-**Student Name:** Theofat Khuliso Ramabulana
+**Student Name:** Theofat Ramabulana
 
 **Student Number:** st10489227
 
