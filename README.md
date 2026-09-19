@@ -33,7 +33,22 @@ Bakery and make enquiries about products and custom cake orders.
 The project will be developed using HTML, CSS and JavaScript.
 
 ---
+## 🎯 Project Objectives
 
+The main objectives of the Sweet Crumbs Bakery website are to:
+
+- Provide information about Sweet Crumbs Bakery.
+- Display the bakery's products in an organised way.
+- Allow customers to make enquiries.
+- Provide the bakery's contact information.
+- Display the bakery's location using Google Maps.
+- Create a website that is easy to navigate.
+- Make the website responsive on desktop, tablet and mobile devices.
+- Use responsive images to improve the website's performance.
+- Create a consistent design across all website pages.
+- Apply appropriate HTML and CSS development practices.
+
+---
 
 
 ## Key Features and Functionality
