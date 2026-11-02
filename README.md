@@ -356,6 +356,7 @@ The website should be tested for:
 - Added contact form validation and email preparation.
 - Improved page titles and meta descriptions.
 - Reviewed image alt text and internal links.
+- Created 'robots.txt'.
 
 ## References
 
