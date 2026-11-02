@@ -359,6 +359,7 @@ The website should be tested for:
 - Created 'robots.txt'.
 - Created 'sitemap.xml'.
 - Added page speed and security improvements.
+- Updated project documentation.
 
 ## References
 
