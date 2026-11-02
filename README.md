@@ -358,6 +358,7 @@ The website should be tested for:
 - Reviewed image alt text and internal links.
 - Created 'robots.txt'.
 - Created 'sitemap.xml'.
+- Added page speed and security improvements.
 
 ## References
 
