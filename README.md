@@ -354,6 +354,7 @@ The website should be tested for:
 - Added an image lightbox.
 - Added enquiry form validation and response messages.
 - Added contact form validation and email preparation.
+- Improved page titles and meta descriptions. 
 
 ## References
 
