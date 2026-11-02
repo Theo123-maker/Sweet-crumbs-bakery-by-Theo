@@ -353,6 +353,7 @@ The website should be tested for:
 - Added product search and filtering.
 - Added an image lightbox.
 - Added enquiry form validation and response messages.
+- Added contact form validation and email preparation.
 
 ## References
 
