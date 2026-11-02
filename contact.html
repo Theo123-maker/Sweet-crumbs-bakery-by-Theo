@@ -1,189 +1,205 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-          content="Contact Sweet Crumbs Bakery for enquiries, orders and bakery information.">
+    <title>Contact Us | Sweet Crumbs Bakery</title>
 
-    <title>Sweet Crumbs Bakery | Contact</title>
+    <meta name="description"
+        content="Contact Sweet Crumbs Bakery with general questions, feedback, compliments or complaints.">
+
+    <meta name="keywords"
+        content="Contact Sweet Crumbs Bakery, bakery contact, customer feedback">
+
+    <meta name="robots" content="index, follow">
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Sweet Crumbs Bakery</h1>
-        <p>Freshly Baked. Made With Love.</p>
+<header>
+    <div class="logo">
+        <a href="index.html">Sweet Crumbs Bakery</a>
+    </div>
 
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- Main Content -->
-    <main>
+<main>
 
-        <section>
-            <h2>Contact Us</h2>
+    <section class="page-header">
 
-            <p>
-                We would love to hear from you. Contact us for
-                product enquiries, custom cake orders or general
-                questions.
+        <h1>Contact Us</h1>
+
+        <p>
+            Have a question or feedback?
+            We would love to hear from you.
+        </p>
+
+    </section>
+
+    <!-- Contact Form -->
+    <section class="form-container">
+
+        <form id="contact-form">
+
+            <label for="contact-name">
+                Full Name:
+            </label>
+
+            <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+                minlength="2"
+                maxlength="80"
+            >
+
+            <label for="contact-email">
+                Email Address:
+            </label>
+
+            <input
+                type="email"
+                id="contact-email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+            >
+
+            <label for="contact-subject">
+                Message Type:
+            </label>
+
+            <select
+                id="contact-subject"
+                name="subject"
+                required>
+
+                <option value="">Select a message type</option>
+                <option value="General Enquiry">General Enquiry</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Complaint">Complaint</option>
+                <option value="Compliment">Compliment</option>
+                <option value="Other">Other</option>
+
+            </select>
+
+            <label for="contact-message">
+                Your Message:
+            </label>
+
+            <textarea
+                id="contact-message"
+                name="message"
+                required
+                minlength="10"
+                maxlength="2000"
+                placeholder="Write your message here...">
+            </textarea>
+
+            <button type="submit" class="btn">
+                Prepare Email
+            </button>
+
+            <p
+                id="contact-response"
+                class="form-response"
+                role="status"
+                aria-live="polite">
             </p>
-        </section>
 
-        <!-- Location 1 -->
-        <section>
-            <h2>Soweto Branch</h2>
+        </form>
 
-            <address>
-                Sweet Crumbs Bakery<br>
-                1710 Modiba Street<br>
-                Soweto Dube<br>
-                Johannesburg<br>
-                South Africa
-            </address>
+    </section>
 
-            <p>
-                <strong>Telephone:</strong>
-                011 555 1234
-            </p>
+    <!-- Contact Information -->
+    <section class="intro">
 
-            <p>
-                <strong>Email:</strong>
-                info@sweetcrumbsbakery.co.za
-            </p>
+        <h2>Visit or Contact Us</h2>
 
-            <!-- Google Maps -->
-             <div class="map-container">
-            
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.577513168989!2d27.896837075416624!3d-26.242913877052825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a738f0d193a5%3A0xcef06c742ce207b7!2s01710%20Modiba%20St%2C%20Dube%2C%20Soweto%2C%201800!5e0!3m2!1sen!2sza!4v1786719594318!5m2!1sen!2sza" 
-                    width="600" 
-                    height="450" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy"
-                    referrerpolicy="strict-origin-when-cross-origin">
-                </iframe>"
+        <p>
+            For product availability, orders and other questions,
+            please use the contact form above.
+        </p>
+       
+        <p>
+            <strong>Call:</strong>
+            0785531328
+        </p>
+        
+        <p>
+            <strong>Email:</strong>
+            sweetcrumbsbakerybytheo@gmail.com
+        </p>
 
-             </div>
-        </section>
+        <p>
+            <strong>Location:</strong>
+            50 Stiemens St Braamfontein, Johannesburg, 2017
+        </p>
 
-        <!-- Location 2 -->
-        <section>
-            <h2>Braamfontein Branch</h2>
+    </section>
 
-            <address>
-                Sweet Crumbs Bakery<br>
-                51 Stiermens Street<br>
-                Braamfontein<br>
-                Johannesburg<br>
-                South Africa
-            </address>
+    
+<!-- Bakery Location and Google Maps -->
+<section class="location-section">
 
-            <p>
-                <strong>Telephone:</strong>
-                011 555 5678
-            </p>
+    <h2>Find Us</h2>
 
-            <p>
-                <strong>Email:</strong>
-                Braamfontein@sweetcrumbsbakery.co.za
-            </p>
+    <p>
+        Visit Sweet Crumbs Bakery using the map below.
+        You can also use Google Maps to get directions to our bakery.
+    </p>
 
-            <!-- Google Maps-->
-             <div class="map-container">
+    <div class="map-container">
 
-               <iframe 
-                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.1563368874326!2d28.035278875414804!3d-26.191592177084335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c19a0eb5e8b%3A0xac45ebad2b965420!2s51%20Stiemens%20St%2C%20Braamfontein%2C%20Johannesburg%2C%202017!5e0!3m2!1sen!2sza!4v1786731433836!5m2!1sen!2sza"
-                     width="600" 
-                     height="450" 
-                     style="border:0;"
-                     allowfullscreen="" 
-                     loading="lazy" 
-                     referrerpolicy="strict-origin-when-cross-origin">
-                </iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1793635646687!6m8!1m7!1sOscxcGzsUNqy26cTFF7NHw!2m2!1d-26.19189940334443!2d28.03628515292839!3f168.88644!4f0!5f0.7820865974627469"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Google Maps location of Sweet Crumbs Bakery">
+        </iframe>
 
-             </div>
-        </section>
+    </div>
 
-        <!-- Opening Hours -->
-        <section>
-            <h2>Opening Hours</h2>
+    <p class="directions-link">
+        <a href=https://share.google/BG4xuCgv68nt69tgL
+           target="_blank"
+           rel="noopener noreferrer">
+            Get Directions to Sweet Crumbs Bakery
+        </a>
+    </p>
 
-            <ul>
-                <li>Monday - Friday: 07:00 - 18:00</li>
-                <li>Saturday: 08:00 - 16:00</li>
-                <li>Sunday: 08:00 - 13:00</li>
-            </ul>
-        </section>
+</section>
 
-        <!-- Contact Form -->
-        <section>
-            <h2>Send Us a Message</h2>
+</main>
 
-            <form action="#" method="post">
+<footer>
+    <p>
+        &copy; <span id="current-year">2026</span>
+        Sweet Crumbs Bakery. All rights reserved.
+    </p>
 
-                <label for="name">Name:</label>
-                <br>
-
-                <input type="text"
-                       id="name"
-                       name="name"
-                       required>
-
-                <br><br>
-
-                <label for="contactEmail">Email:</label>
-                <br>
-
-                <input type="email"
-                       id="contactEmail"
-                       name="contactEmail"
-                       required>
-
-                <br><br>
-
-                <label for="contactMessage">Message:</label>
-                <br>
-
-                <textarea id="contactMessage"
-                          name="contactMessage"
-                          rows="6"
-                          cols="40"
-                          required></textarea>
-
-                <br><br>
-
-                <button type="submit">
-                    Send Message
-                </button>
-
-            </form>
-
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
-    </footer>
+    <p>Freshly baked with love.</p>
+</footer>
 
 </body>
-
 </html>

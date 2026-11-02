@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://theo123-maker.github.io/Sweet-crumbs-bakery-by-Theo/sitemap.xml

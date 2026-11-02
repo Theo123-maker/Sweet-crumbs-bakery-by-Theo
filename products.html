@@ -1,277 +1,224 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Basic page information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO information -->
-    <meta name="description" content="Explore the cakes, cupcakes, bread and pastries available at Sweet Crumbs Bakery.">
-    <meta name="keywords" content="Sweet Crumbs Bakery products, cakes, cupcakes, bread, pastries">
-    <meta name="author" content="Sweet Crumbs Bakery">
+    <title>Cakes, Cupcakes and Pastries | Sweet Crumbs Bakery</title>
 
-    <title>Sweet Crumbs Bakery | Products</title>
+    <meta name="description"
+        content="Explore celebration cakes, cupcakes, bread, cookies and pastries from Sweet Crumbs Bakery.">
 
-    <!-- External CSS stylesheet -->
+    <meta name="keywords"
+        content="Bakery products, celebration cakes, cupcakes, bread, cookies, pastries">
+
+    <meta name="robots" content="index, follow">
+
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- =========================
-         HEADER
-         ========================= -->
-    <header>
+<header>
+    <div class="logo">
+        <a href="index.html">Sweet Crumbs Bakery</a>
+    </div>
 
-        <div class="logo">
-            <a href="index.html">Sweet Crumbs Bakery</a>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-header">
+
+        <h1>Our Products</h1>
+
+        <p>
+            Discover our selection of freshly baked products,
+            prepared with care and quality ingredients.
+        </p>
+
+    </section>
+
+    <section class="products">
+
+        <!-- Product Search -->
+        <div class="product-search">
+
+            <label for="product-search">
+                Search our products:
+            </label>
+
+            <input
+                type="search"
+                id="product-search"
+                placeholder="Search cakes, cupcakes, bread..."
+                aria-label="Search bakery products"
+            >
+
+            <p id="no-results" hidden>
+                No products found. Please try another search.
+            </p>
+
         </div>
 
-        <!-- Navigation menu -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <!-- Product Cards -->
+        <div class="product-container">
 
-    </header>
+            <article class="product-card">
 
+                <img src="images/birthdaycake-large.jpg"
+                     alt="Decorated birthday celebration cake"
+                     class="responsive-image gallery-image">
 
-    <!-- =========================
-         MAIN CONTENT
-         ========================= -->
-    <main>
+                <h2>Celebration Cakes</h2>
 
-        <!-- Page Introduction -->
-        <section class="page-header">
+                <p>
+                    Custom cakes for birthdays, anniversaries,
+                    weddings and other special occasions.
+                </p>
 
-            <h1>Our Products</h1>
+                <a href="enquiry.html" class="btn">
+                    Enquire Now
+                </a>
 
-            <p>
-                Discover our selection of freshly baked products,
-                prepared with care and quality ingredients.
-            </p>
+            </article>
 
-        </section>
+            <article class="product-card">
 
+                <img src="images/cupcake-large.jpg"
+                     alt="Freshly baked cupcakes with icing"
+                     class="responsive-image gallery-image">
 
-        <!-- =========================
-             PRODUCT SECTION
-             ========================= -->
-        <section class="products">
+                <h2>Cupcakes</h2>
 
-            <div class="product-container">
+                <p>
+                    Soft and delicious cupcakes available
+                    in different flavours and decorations.
+                </p>
 
+                <a href="enquiry.html" class="btn">
+                    Enquire Now
+                </a>
 
-                <!-- =========================
-                     PRODUCT 1: CAKES
-                     ========================= -->
-                <article class="product-card">
+            </article>
 
-                    <img
-                        src="images/cake-large.jpg"
-                        srcset="
-                            images/cake-small.jpg 480w,
-                            images/cake-medium.jpg 800w,
-                            images/cake-large.jpg 1200w
-                        "
-                        sizes="
-                            (max-width: 600px) 100vw,
-                            (max-width: 1024px) 50vw,
-                            33vw
-                        "
-                        alt="Decorated celebration cake"
-                        class="responsive-image">
+            <article class="product-card">
 
-                    <h2>Celebration Cakes</h2>
+                <img src="images/bread-medium.jpg"
+                     alt="Freshly baked bread"
+                     class="responsive-image gallery-image">
 
-                    <p>
-                        Our celebration cakes are suitable for birthdays,
-                        anniversaries, weddings and other special occasions.
-                    </p>
+                <h2>Fresh Bread</h2>
 
-                    <p>
-                        Customers can enquire about different flavours,
-                        sizes and designs.
-                    </p>
-                    
-                    <p><strong>Starting from R150</strong></p>
+                <p>
+                    Everyday bread prepared with care
+                    for individuals and families.
+                </p>
 
-                    <a href="enquiry.html" class="btn">
-                        Enquire About Cakes
-                    </a>
+                <a href="enquiry.html" class="btn">
+                    Enquire Now
+                </a>
 
-                </article>
+            </article>
 
+            <article class="product-card">
 
-                <!-- =========================
-                     PRODUCT 2: CUPCAKES
-                     ========================= -->
-                <article class="product-card">
+                <img src="images/pastries-large.jpg"
+                     alt="Selection of freshly baked pastries"
+                     class="responsive-image gallery-image">
 
-                    <img
-                        src="images/vanillacupcakes-large.jpg"
-                        srcset="
-                            images/vanillacupcakes-small.jpg 480w,
-                            images/vanillacupcakes-medium.jpg 800w,
-                            images/vanillacupcakes-large.jpg 1200w
-                        "
-                        sizes="
-                            (max-width: 600px) 100vw,
-                            (max-width: 1024px) 50vw,
-                            33vw
-                        "
-                        alt="Freshly baked cupcakes"
-                        class="responsive-image">
+                <h2>Pastries</h2>
 
-                    <h2>Cupcakes</h2>
+                <p>
+                    A selection of tasty pastries suitable
+                    for breakfast, snacks and sharing.
+                </p>
 
-                    <p>
-                        Our cupcakes are soft, fresh and available in
-                        different flavours and toppings.
-                    </p>
+                <a href="enquiry.html" class="btn">
+                    Enquire Now
+                </a>
 
-                    <p>
-                        They are suitable for parties, events,
-                        celebrations or everyday treats.
-                    </p>
-                      
-                    <p><strong>R60 per dozen</strong></p>
+            </article>
 
-                    <a href="enquiry.html" class="btn">
-                        Enquire About Cupcakes
-                    </a>
+            <article class="product-card">
 
-                </article>
+                <img src="images/cookies-large.jpg"
+                     alt="Freshly baked cookies"
+                     class="responsive-image gallery-image">
 
+                <h2>Cookies</h2>
 
-                <!-- =========================
-                     PRODUCT 3: BREAD
-                     ========================= -->
-                <article class="product-card">
+                <p>
+                    Crunchy and delicious cookies
+                    that are perfect for a sweet treat.
+                </p>
 
-                    <img
-                        src="images/bread-large.jpg"
-                        srcset="
-                            images/bread-small.jpg 480w,
-                            images/bread-medium.jpg 800w,
-                            images/bread-large.jpg 1200w
-                        "
-                        sizes="
-                            (max-width: 600px) 100vw,
-                            (max-width: 1024px) 50vw,
-                            33vw
-                        "
-                        alt="Freshly baked bread"
-                        class="responsive-image">
+                <a href="enquiry.html" class="btn">
+                    Enquire Now
+                </a>
 
-                    <h2>Fresh Bread</h2>
+            </article>
 
-                    <p>
-                        Our bread is baked fresh and is suitable for
-                        breakfast, lunch or everyday meals.
-                    </p>
+        </div>
 
-                    <p>
-                        We focus on providing fresh products that
-                        customers can enjoy with their families.
-                    </p>
-                    
-                    <p><strong>R16 per loaf</strong></p>
+    </section>
 
-                    <a href="enquiry.html" class="btn">
-                        Enquire About Bread
-                    </a>
+    <!-- Image Lightbox -->
+    <div id="image-lightbox" class="lightbox" hidden>
 
-                </article>
+        <div class="lightbox-content">
 
+            <button
+                type="button"
+                id="close-lightbox"
+                class="lightbox-close"
+                aria-label="Close enlarged image">
+                &times;
+            </button>
 
-                <!-- =========================
-                     PRODUCT 4: PASTRIES
-                     ========================= -->
-                <article class="product-card">
+            <img id="lightbox-image" src="" alt="">
 
-                    <img
-                        src="images/pastries-large.jpg"
-                        srcset="
-                            images/pastries-small.jpg 480w,
-                            images/pastries-medium.jpg 800w,
-                            images/pastries-large.jpg 1200w
-                        "
-                        sizes="
-                            (max-width: 600px) 100vw,
-                            (max-width: 1024px) 50vw,
-                            33vw
-                        "
-                        alt="Assorted freshly baked pastries"
-                        class="responsive-image">
+        </div>
 
-                    <h2>Pastries</h2>
+    </div>
 
-                    <p>
-                        We offer a selection of freshly baked pastries
-                        that are perfect for breakfast or a snack.
-                    </p>
+    <!-- Call to Action -->
+    <section class="call-to-action">
 
-                    <p>
-                        Our pastries are prepared to provide customers
-                        with a fresh and enjoyable bakery experience.
-                    </p>
-
-                    <p><strong>From R12 each</strong></p>
-
-                    <a href="enquiry.html" class="btn">
-                        Enquire About Pastries
-                    </a>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             ORDER SECTION
-             ========================= -->
-        <section class="call-to-action">
-
-            <h2>Want to Place an Order?</h2>
-
-            <p>
-                Contact us to ask about our products, prices,
-                availability and special orders.
-            </p>
-
-            <a href="enquiry.html" class="btn">
-                Make an Enquiry
-            </a>
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================
-         FOOTER
-         ========================= -->
-    <footer>
+        <h2>Want to Place an Order?</h2>
 
         <p>
-            &copy; 2026 Sweet Crumbs Bakery. All rights reserved.
+            Contact us to ask about prices, availability
+            and special orders.
         </p>
 
-        <p>
-            Freshly baked with love.
-        </p>
+        <a href="enquiry.html" class="btn">
+            Make an Enquiry
+        </a>
 
-    </footer>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        &copy; <span id="current-year">2026</span>
+        Sweet Crumbs Bakery. All rights reserved.
+    </p>
+
+    <p>Freshly baked with love.</p>
+</footer>
 
 </body>
-
 </html>

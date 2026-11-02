@@ -265,3 +265,124 @@ Example:
     alt="Decorated celebration cake"
     class="responsive-image"
 >
+
+
+# Sweet Crumbs Bakery Website
+
+## Project Overview
+
+Sweet Crumbs Bakery is a website developed to display bakery products,
+provide information about the bakery and allow customers to make enquiries
+or prepare general contact messages.
+
+The website was created using HTML, CSS and JavaScript.
+
+## Technologies Used
+
+- HTML5 for the structure of the website.
+- CSS3 for styling, layouts and responsive design.
+- JavaScript for interactive features and form validation.
+- Git and GitHub for version control and project hosting.
+- GitHub Pages for publishing the static website.
+
+## Website Pages
+
+- `index.html` - Homepage and introduction.
+- `about.html` - Information about the bakery.
+- `products.html` - Bakery products and product search.
+- `enquiry.html` - Product enquiry form.
+- `contact.html` - General contact form.
+
+## Part 3: Functionality and SEO
+
+### JavaScript Enhancements
+
+- Added a welcome message to the homepage.
+- Added a search feature to filter bakery products.
+- Added an image lightbox for viewing product images.
+- Added HTML and JavaScript form validation.
+- Added an enquiry response for product-related questions.
+- Added functionality to prepare a contact email.
+- Added an automatic copyright year.
+
+### Search Engine Optimisation
+
+- Added page-specific title tags and meta descriptions.
+- Used suitable heading tags to organise page content.
+- Added descriptive alternative text to images.
+- Improved internal links between website pages.
+- Created a `robots.txt` file.
+- Created a `sitemap.xml` file.
+- Continued improving mobile responsiveness and image loading.
+
+### Forms
+
+The enquiry form collects a customer's contact details, selected
+product, quantity, required date and additional requirements.
+
+The contact form collects the customer's name, email address,
+message type and general message.
+
+HTML validation checks required fields and common input formats.
+JavaScript displays feedback and prepares the contact email.
+
+Note: The current demonstration enquiry form does not save or send
+enquiries automatically. The contact form relies on the visitor's
+configured email application. A backend or form service is required
+for automatic processing and storage.
+
+## Testing
+
+The website should be tested for:
+
+- Working navigation links.
+- Correctly displayed images.
+- Product search results.
+- Image lightbox opening and closing.
+- Required form fields and invalid input.
+- Contact email preparation.
+- Desktop, tablet and mobile layouts.
+- Correct links and paths on the published website.
+- Availability of `robots.txt` and `sitemap.xml`.
+
+## Changelog
+
+### Part 3 - Functionality and SEO
+
+- Added JavaScript enhancements.
+- Added product search and filtering.
+- Added an image lightbox.
+- Added enquiry form validation and response messages.
+- Added contact form validation and email preparation.
+- Improved page titles and meta descriptions.
+- Reviewed image alt text and internal links.
+- Created `robots.txt` and `sitemap.xml`.
+- Added page-speed and security improvements.
+- Updated project documentation.
+- Tested the website before publishing.
+
+## References
+
+Git. (n.d.) *Git documentation*. Available at:
+https://git-scm.com/doc (Accessed: 28 October 2026).
+
+Mozilla. (n.d.) *HTML: HyperText Markup Language*.
+Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
+(Accessed: 28 October 2026).
+
+Mozilla. (n.d.) *JavaScript*.
+Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+(Accessed: 28 October 2026).
+
+Mozilla. (n.d.) *CSS: Cascading Style Sheets*.
+Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+(Accessed: 28 October 2026).
+
+Google Search Central. (n.d.) *SEO Starter Guide*.
+Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+(Accessed: 28 October 2026).
+
+Sitemaps.org. (n.d.) *Sitemaps XML format*.
+Available at: https://www.sitemaps.org/protocol.html
+(Accessed: 28 October 2026).
+

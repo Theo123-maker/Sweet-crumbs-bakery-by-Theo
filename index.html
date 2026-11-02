@@ -1,258 +1,186 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Basic page information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO information -->
-    <meta name="description" content="Sweet Crumbs Bakery offers freshly baked cakes, cupcakes, bread and pastries in Johannesburg.">
-    <meta name="keywords" content="Sweet Crumbs Bakery, cakes, cupcakes, bread, pastries, bakery, Johannesburg">
-    <meta name="author" content="Sweet Crumbs Bakery">
-
     <title>Sweet Crumbs Bakery | Home</title>
 
-    <!-- External CSS stylesheet -->
+    <meta name="description"
+        content="Welcome to Sweet Crumbs Bakery. Explore our freshly baked cakes, cupcakes, bread, cookies and pastries.">
+
+    <meta name="keywords"
+        content="Sweet Crumbs Bakery, cakes, cupcakes, bread, cookies, pastries">
+
+    <meta name="robots" content="index, follow">
+
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- =========================
-         HEADER
-         ========================= -->
-    <header>
+<header>
+    <div class="logo">
+        <a href="index.html">Sweet Crumbs Bakery</a>
+    </div>
 
-        <div class="logo">
-            <a href="index.html">Sweet Crumbs Bakery</a>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <picture>
+            <img src="images/bakery-large.png"
+                 alt="Sweet Crumbs Bakery and its freshly baked products"
+                 class="responsive-image">
+        </picture>
+
+        <div class="hero-content">
+            <h1>Welcome to Sweet Crumbs Bakery</h1>
+
+            <p>
+                Freshly baked treats made with love,
+                quality ingredients and a passion for delicious food.
+            </p>
+
+            <a href="products.html" class="btn">
+                View Our Products
+            </a>
         </div>
+    </section>
 
-        <!-- Main navigation -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Introduction -->
+    <section class="intro">
 
-    </header>
+        <h2>Freshly Baked with Love</h2>
 
+        <p id="welcome-message" aria-live="polite">
+            Welcome to Sweet Crumbs Bakery!
+        </p>
 
-    <!-- =========================
-         MAIN CONTENT
-         ========================= -->
-    <main>
+        <p>
+            Sweet Crumbs Bakery is a local bakery that offers
+            a variety of freshly baked products for individuals,
+            families and special occasions.
+        </p>
 
-        <!-- Hero Section -->
-        <section class="hero">
+        <p>
+            Our products include celebration cakes, cupcakes,
+            fresh bread, cookies and pastries.
+        </p>
 
-            <!--
-                Responsive image:
-                Mobile = small image
-                Tablet = medium image
-                Desktop = large image
-            -->
-            <picture>
+        <p>
+            We aim to provide delicious baked goods while
+            maintaining friendly customer service and quality products.
+        </p>
 
-                <source
-                    media="(max-width: 600px)"
-                    srcset="images/bakery - small.png.">
+    </section>
 
-                <source
-                    media="(max-width: 1024px)"
-                    srcset="images/bakery-medium.png">
+    <!-- Featured Products -->
+    <section class="featured-products">
 
-                <img
-                    src="images/bakery-large.png"
-                    alt="Freshly baked products at Sweet Crumbs Bakery"
-                    class="responsive-image">
+        <h2>Our Featured Products</h2>
 
-            </picture>
+        <div class="product-container">
 
-            <div class="hero-content">
+            <article class="product-card">
 
-                <h1>Welcome to Sweet Crumbs Bakery</h1>
+                <img src="images/birthdaycake-large.jpg"
+                     alt="Decorated birthday celebration cake"
+                     class="responsive-image">
+
+                <h3>Celebration Cakes</h3>
 
                 <p>
-                    Freshly baked treats made with love, quality ingredients
-                    and a passion for delicious food.
+                    Beautifully decorated cakes for birthdays,
+                    anniversaries and special occasions.
                 </p>
 
                 <a href="products.html" class="btn">
-                    View Our Products
+                    View Products
                 </a>
 
-            </div>
+            </article>
 
-        </section>
+            <article class="product-card">
 
+                <img src="images/cupcake-large.jpg"
+                     alt="Freshly baked cupcakes with icing"
+                     class="responsive-image">
 
-        <!-- Introduction Section -->
-        <section class="intro">
+                <h3>Cupcakes</h3>
 
-            <h2>Welcome to Sweet Crumbs Bakery</h2>
+                <p>
+                    Soft and delicious cupcakes available
+                    in different flavours and designs.
+                </p>
 
-            <p>
-                Sweet Crumbs Bakery is a local bakery that provides a variety
-                of freshly baked products for individuals, families and special
-                occasions. Our products include cakes, cupcakes, bread and
-                pastries.
-            </p>
+                <a href="products.html" class="btn">
+                    View Products
+                </a>
 
-            <p>
-                We aim to provide customers with delicious baked goods while
-                maintaining friendly customer service and high-quality products.
-            </p>
+            </article>
 
-        </section>
+            <article class="product-card">
 
+                <img src="images/pastries-large.jpg"
+                     alt="Selection of freshly baked pastries"
+                     class="responsive-image">
 
-        <!-- Featured Products -->
-        <section class="featured-products">
+                <h3>Pastries</h3>
 
-            <h2>Our Featured Products</h2>
+                <p>
+                    Tasty pastries prepared with care
+                    and quality ingredients.
+                </p>
 
-            <div class="product-container">
+                <a href="products.html" class="btn">
+                    View Products
+                </a>
 
-                <!-- Cake -->
-                <article class="product-card">
+            </article>
 
-                    <img
-                        src="images/cake-large.jpg"
-                        srcset="
-                            images/cake-small.jpg 480w,
-                            images/cake-medium.jpg 800w,
-                            images/cake-large.jpg 1200w
-                        "
-                        sizes="
-                            (max-width: 600px) 100vw,
-                            (max-width: 1024px) 50vw,
-                            33vw
-                        "
-                        alt="Decorated celebration cake"
-                        class="responsive-image">
+        </div>
+    </section>
 
-                    <h3>Celebration Cakes</h3>
+    <!-- Call to Action -->
+    <section class="call-to-action">
 
-                    <p>
-                        Beautifully decorated cakes for birthdays,
-                        celebrations and special occasions.
-                    </p>
-
-                    <a href="products.html" class="btn">
-                        Learn More
-                    </a>
-
-                </article>
-
-
-                <!-- Cupcakes -->
-                <article class="product-card">
-
-                    <img
-                        src="images/vanillacupcakes-large.jpg"
-                        srcset="
-                            images/vanillacupcakes-small.jpg 480w,
-                            images/vanillacupcakes-medium.jpg 800w,
-                            images/vanillacupcakes-large.jpg 1200w
-                        "
-                        sizes="
-                            (max-width: 600px) 100vw,
-                            (max-width: 1024px) 50vw,
-                            33vw
-                        "
-                        alt="Freshly baked cupcakes"
-                        class="responsive-image">
-
-                    <h3>Cupcakes</h3>
-
-                    <p>
-                        Soft and delicious cupcakes available in
-                        different flavours and designs.
-                    </p>
-
-                    <a href="products.html" class="btn">
-                        Learn More
-                    </a>
-
-                </article>
-
-
-                <!-- Bread -->
-                <article class="product-card">
-
-                    <img
-                        src="images/bread-large.jpg"
-                        srcset="
-                            images/bread-small.jpg 480w,
-                            images/bread-medium.jpg 800w,
-                            images/bread-large.jpg 1200w
-                        "
-                        sizes="
-                            (max-width: 600px) 100vw,
-                            (max-width: 1024px) 50vw,
-                            33vw
-                        "
-                        alt="Freshly baked bread"
-                        class="responsive-image">
-
-                    <h3>Fresh Bread</h3>
-
-                    <p>
-                        Freshly baked bread prepared daily using
-                        quality ingredients.
-                    </p>
-
-                    <a href="products.html" class="btn">
-                        Learn More
-                    </a>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- Call To Action -->
-        <section class="call-to-action">
-
-            <h2>Need Something Special?</h2>
-
-            <p>
-                Contact Sweet Crumbs Bakery for special orders,
-                celebrations and enquiries.
-            </p>
-
-            <a href="enquiry.html" class="btn">
-                Make an Enquiry
-            </a>
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================
-         FOOTER
-         ========================= -->
-    <footer>
+        <h2>Need Something Special?</h2>
 
         <p>
-            &copy; 2026 Sweet Crumbs Bakery. All rights reserved.
+            Contact us about product availability,
+            prices and special orders.
         </p>
 
-        <p>
-            Freshly baked with love.
-        </p>
+        <a href="enquiry.html" class="btn">
+            Make an Enquiry
+        </a>
 
-    </footer>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        &copy; <span id="current-year">2026</span>
+        Sweet Crumbs Bakery. All rights reserved.
+    </p>
+
+    <p>Freshly baked with love.</p>
+</footer>
 
 </body>
-
 </html>
-        
