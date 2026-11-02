@@ -350,6 +350,7 @@ The website should be tested for:
 ### Part 3 - Functionality and SEO
 
 - Added JavaScript enhancements.
+- Added product search and filtering.
 
 ## References
 
