@@ -360,6 +360,7 @@ The website should be tested for:
 - Created 'sitemap.xml'.
 - Added page speed and security improvements.
 - Updated project documentation.
+- Tested the website before publishing. 
 
 ## References
 
