@@ -386,3 +386,12 @@ Sitemaps.org. (n.d.) *Sitemaps XML format*.
 Available at: https://www.sitemaps.org/protocol.html
 (Accessed: 28 October 2026).
 
+ Developer.Mozilla, 2026. CSS: Cascading Style Sheets. [online]. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (accessed 15 September 2026).
+
+ FreedomCodeCamp, 2025. How to Git and GitHub. [online]. Available at: https://www.freecodecamp.org/news/learn-how-to-use-git-and-github-a-beginner-friendly-handbook/ (accessed 17 September 2026). 
+
+ GeeksforGeeks, 2026. HTML Introduction. [online]. Available at: https://www.geeksforgeeks.org/html/html-introduction/ (accessed 10 September 2026).
+
+ GeeksfoeGeeks, 2026. Web Development Technologies. [online]. Available at: https://www.geeksforgeeks.org/web-tech/web-technology/ (accessed 7 September 2026).
+. 
+ 
