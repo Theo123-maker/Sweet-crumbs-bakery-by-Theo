@@ -350,16 +350,6 @@ The website should be tested for:
 ### Part 3 - Functionality and SEO
 
 - Added JavaScript enhancements.
-- Added product search and filtering.
-- Added an image lightbox.
-- Added enquiry form validation and response messages.
-- Added contact form validation and email preparation.
-- Improved page titles and meta descriptions.
-- Reviewed image alt text and internal links.
-- Created `robots.txt` and `sitemap.xml`.
-- Added page-speed and security improvements.
-- Updated project documentation.
-- Tested the website before publishing.
 
 ## References
 
