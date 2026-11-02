@@ -351,6 +351,7 @@ The website should be tested for:
 
 - Added JavaScript enhancements.
 - Added product search and filtering.
+- Added an image lightbox. 
 
 ## References
 
